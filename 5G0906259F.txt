@@ -1,0 +1,33 @@
+ lv_taa_cus_act,"Flag that enables the ambient air temperature from customer",0xd00009d0
+ lv_taa_mdl_vld,"ambient air temperature model valid",0xd00009d2
+ lv_taa_mes_vld,"Ambient air temperature measured value valid",0xd00009d3
+ lv_taa_sens_ena,"ambient air temperature sensor enable", 0xd00009d3
+ lv_tco_ena_airt,"engine coolant temperature enable for airt",0xd00009d7
+ lv_tig_taa_estim_clc,"intake gas temperature enabled for taa_estim calculation",0xd00009d9
+ lv_vs_ena_airt,"vehicle speed enable for airt",0xd00009e0
+ taa_cus,"ambient air temperature from customer",0xd0011bfc
+ taa_mdl,"modeled taa value",0xd0011c00
+ tig_taa_estim_clc,"Intake gas temperature for TAA_ESTIM calculation",0xd0011c4a
+ temp_cold_src,"Cold source reference temperature of engine",0xd0011c0a
+ temp_hot_src,"Hot source reference temperature of engine",0xd0011c0e
+ tig_cmpr_up,"Intake gas temperature upstream compressor",0xd0011c14
+ tig_hfm,"Intake gas temperature at HFM",0xd0011c22
+ tig_hfm_st,"Intake gas temperature at HFM at start",0xd0011c24
+ tig_hfm_st_dc,"Intake gas temperature at HFM at start in current Driving Cycle",0xd0011c26
+ tig_ico_mdl_inp,"Intake gas temperature input value for intake gas temperature model at intercooler",0xd0011c2e
+ tig_ico_up,"Intake gas temperature upstream intercooler",0xd0011c30
+ tig_im_mdl_inp,"Intake gas temperature input value for intake gas temperature model at intake manifold",0xd0011c34
+ tig_im_mdl_inp_sub,"Substitute value for TIG_IM_MDL_INP value",0xd00159c2
+ tig_inv_mdl_inp,"Intake gas temperature input value for intake gas temperature model at intake valve",0xd0011c42
+ tig_thr_mdl_inp,"Intake gas temperature input value for intake gas temperature model at throttle",0xd0011c4e
+ lv_tam_mes_vld,"Logical variable indicating the validity of the measured TAM signals i.e. the validity of only the data transfer to ECU is considered here and the plausiblity of the value itself.",0xd00009d6
+ m_gas_tig_im_airt,"Intake gas mass for calculation of intake gas temperature model at intake manifold",0xd0011be6
+ m_gas_tig_inv_airt,"Intake gas mass for calculation of intake gas temperature model at intake valve",0xd0011be8
+ m_gas_tig_thr_airt,"Intake gas mass for calculation of intake gas temperature model at throttle",0xd0011bea
+ m_gas_tlts_mdl_airt,"Intake gas mass for calculation of air temperature model",0xd0011bec
+ mfl_gas_im_airt,"Intake gas mass flow at intake manifold for AIRT aggregate",0xd0011bee
+ pq_airt,"Ratio of intake manifold pressure to ambient pressure for AIRT aggregate",0xd000c25e
+ tam,"Ambient temperature",0xd000c267
+ tam_st,"Ambient air temperature at Start",0xd000c268
+ tia,"Intake air temperature",0xd000c269
+ tia_cyl,"intake air temperature at cylinder inlet",0xd000c26a
