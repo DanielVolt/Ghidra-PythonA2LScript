@@ -12,7 +12,6 @@ while True: # simple loop
         printf(address)
         addr = toAddr(address)
         d = hi.getDataAt(addr) #give the opened BIN file our Memory Address
-        d = hi.getDataAt(addr) #give the opened BIN file our Memory Address
         if d == None: #if our opened BIN file does not contain the Memory Address
             printf(" does not exist, skipping... ")
             continue
